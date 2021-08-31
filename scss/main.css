@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
 }
@@ -271,7 +277,6 @@ body {
   background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
   min-height: 100vh;
   font: normal 16px sans-serif;
-  padding: 60px 0;
 }
 
 .container.gallery-container {
@@ -328,5 +333,12 @@ body {
   .container.gallery-container {
     border-radius: 0;
   }
+}
+
+.btn_buy {
+  position: relative;
+  left: 50%;
+  border-radius: 10px;
+  background-color: #ffe4c4;
 }
 /*# sourceMappingURL=main.css.map */

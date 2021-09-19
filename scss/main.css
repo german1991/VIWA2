@@ -34,6 +34,7 @@ div {
   margin: auto;
   border-radius: 20px;
   box-shadow: 2px 3px 4px;
+  padding: 1rem;
 }
 
 .Body__titulo {
@@ -336,9 +337,10 @@ body {
 }
 
 .btn_buy {
-  position: relative;
   left: 50%;
   border-radius: 10px;
   background-color: #ffe4c4;
+  padding: 1rem;
+  border: hidden;
 }
 /*# sourceMappingURL=main.css.map */

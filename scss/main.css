@@ -30,8 +30,8 @@ div {
 /*AYUDA*/
 .form_ayuda {
   background-color: white;
-  width: 1000px;
   margin: auto;
+  margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 2px 3px 4px;
   padding: 1rem;
@@ -158,6 +158,16 @@ div.fixed {
   width: 100px;
 }
 
+@media (max-width: 400px) {
+  div.fixed {
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+  .ico-wts {
+    width: 60px;
+  }
+}
+
 .linea {
   border-top: 5px solid black;
 }
@@ -260,6 +270,8 @@ h3 {
 /*footer*/
 .bg-footer {
   background-color: pink;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 p {
@@ -267,7 +279,7 @@ p {
 }
 
 .tm_img {
-  height: 70vh;
+  height: 90vh;
 }
 
 .carousel-indicators {
@@ -276,7 +288,7 @@ p {
 
 body {
   background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
-  min-height: 100vh;
+  height: 100vh;
   font: normal 16px sans-serif;
 }
 
@@ -342,5 +354,13 @@ body {
   background-color: #ffe4c4;
   padding: 1rem;
   border: hidden;
+}
+
+.contact input {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */

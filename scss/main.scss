@@ -26,8 +26,9 @@ body {
   /*AYUDA*/
   .form_ayuda{
     background-color:white;
-  width: 1000px;
+  
   margin: auto;
+  margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 2px 3px 4px ;
   padding: 1rem;
@@ -145,7 +146,18 @@ body {
   bottom: 0;
   right: 0;
   width: 100px;
+}
+@media (max-width: 400px){
+  div.fixed{
+    
+    margin-right: 30px;
+    margin-bottom: 50px;
   }
+  .ico-wts{
+    width: 60px;
+    
+  }
+}
   
   
     .linea{
@@ -282,7 +294,8 @@ body {
    /*footer*/
    .bg-footer{
      background-color: pink;
-     
+     margin-bottom: 0;
+      padding-bottom:0 ;     
    } 
    $color:azul;
    p{@if $color==azul{
@@ -292,7 +305,7 @@ body {
     }
 }
 .tm_img{
-    height: 70vh;
+    height: 90vh;
     ;;
     
     
@@ -302,7 +315,7 @@ body {
 }
 body {
   background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
-  min-height: 100vh;
+  height: 100vh;
   font: normal 16px sans-serif;
   
 }
@@ -372,3 +385,11 @@ body {
   padding: 1rem;
   border:hidden;
   }
+.contact input{
+  margin-bottom: 10px;
+
+}
+.contact{
+  margin-top: 20px;
+  
+}
